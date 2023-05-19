@@ -6,6 +6,10 @@ body {
       width: auto;
 }
 
+.inline-block ul {
+
+}
+
 
 .inline-block li {
     display: inline-block;
@@ -18,7 +22,13 @@ body {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #494D5F;
     margin: 10px;
+    cursor: default;
 }
+
+.inline-block li.active {
+    background: #B6DBEE;
+    color: #9747FF;
+  }
 
 #Home {
     -webkit-text-stroke-width: 4px;
