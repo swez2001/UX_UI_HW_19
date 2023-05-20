@@ -6,9 +6,9 @@ body {
       width: auto;
 }
 
-.inline-block ul {
-
-}
+.dropdown{
+    display: none;
+    }
 
 
 .inline-block li {
@@ -51,7 +51,6 @@ body {
     align-items: left;
     display: flex;
     margin-left: 366px;
-    background-color: #E5EAF5;
     margin-right: 199px;
     margin-left: 199;
     margin-top: 25px;
