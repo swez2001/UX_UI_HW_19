@@ -6,9 +6,34 @@ body {
       width: auto;
 }
 
-.dropdown{
+.Work {
+    position: relative;
+    display: inline-block;
+  }
+
+.dropdown {
     display: none;
-    }
+    position: absolute;
+    z-index: 1;
+    font-size: 15px;
+    background-color: #B6DBEE;
+  }
+  
+  .Work .dropdown li {
+    text-align: left;
+    font-size: 20px;
+    margin-left: -32px;
+    background-color: #B6DBEE;
+    margin-bottom: 21px;
+    color: #8458B3;
+    font-weight: 600;
+    font-family:  'Poppins', sans-serif;
+  }
+
+  .Work:hover .dropdown {
+    display: block;
+  }
+  
 
 
 .inline-block li {
