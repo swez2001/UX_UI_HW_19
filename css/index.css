@@ -32,8 +32,19 @@ body {
 
   .Work:hover .dropdown {
     display: block;
+    margin-top: 25px;
+    border: solid black;
+  }
+
+  li.Work:hover {
+      color: #8458B3;
   }
   
+  .Work img {
+      height: 50px;
+      width: 40px;
+      margin-bottom: -16px;
+  }
 
 
 .inline-block li {
@@ -87,10 +98,18 @@ body {
 
 }
 
+.content img {
+    height: 60px;
+    width: 60px;
+    margin-left: 270px;
+    margin-top: -29px;
+}
+
 .Navigation {
     display: flex;
     vertical-align: top;
     background-color: #B6DBEE;
+    border: solid black;
     align-items: center;
     margin: -2px;
     margin-top: 0px;
@@ -398,17 +417,17 @@ footer .fa {
   
   .fa-facebook {
     background: #494D5F;
-    color: white;
+    color: #E5EAF5;
   }
 
   .fa-instagram {
     background: #494D5F;
-    color: white;
+    color: #E5EAF5;
   }
 
   .fa-linkedin {
     background: #494D5F;
-    color: white;
+    color: #E5EAF5;
   }
 
   @media only screen and (max-width:600px) {
