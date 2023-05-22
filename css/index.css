@@ -36,6 +36,14 @@ body {
     border: solid black;
   }
 
+  #Home:hover {
+    color: #8458B3;
+  }
+
+  li.About:hover {
+    color: #8458B3;
+  }
+
   li.Work:hover {
       color: #8458B3;
   }
