@@ -106,12 +106,16 @@ body {
 
 }
 
-.content img {
+
+.scrollimg {
     height: 60px;
     width: 60px;
     margin-left: 270px;
     margin-top: -29px;
+    cursor: pointer;
+   
 }
+
 
 .Navigation {
     display: flex;
@@ -144,6 +148,7 @@ body {
     text-align: center;
     margin-left: -85px;
 }
+
 
 .line-1 {
     height: 2px;
