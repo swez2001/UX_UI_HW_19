@@ -31,7 +31,7 @@ body {
   }
 
   .Work:hover .dropdown {
-    display: block;
+    /* display: block; */
     margin-top: 25px;
     border: solid black;
   }
@@ -444,7 +444,18 @@ footer .fa {
   }
 
   @media only screen and (max-width:600px) {
-      .WorkGrid{
+      .Navigation{
+        display: flex;
+        vertical-align: top;
+        background-color: #B6DBEE;
+        border: solid black;
+        align-items: center;
+        margin: -2px;
+        margin-top: 0px;
+      }
+    
+    
+    .WorkGrid{
             display: grid;
             grid-template-areas: 'travelimg' 
             'travelcontent' 
@@ -462,6 +473,16 @@ footer .fa {
       .MySkillsFlex{
           flex-direction: column;
       }
+
+      .hero {
+        align-items: left;
+        display: flex;
+        margin-block: 50px;
+        margin-inline-start: -93px;
+        text-align: center;
+
+      }
+
 
       .UserResearch img {
         height: 100px;
