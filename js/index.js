@@ -29,6 +29,14 @@ $(document).ready(function() {
       myWork.scrollIntoView({ behavior: "smooth" });
    
     });
+
+    $(document).ready(function() {
+      $('.burgerMenu').click(function() {
+        $('ul.normalMenu').slideToggle();
+      });
+    });
+
+    
   });
 
   

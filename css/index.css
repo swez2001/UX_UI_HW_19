@@ -443,6 +443,19 @@ footer .fa {
     color: #E5EAF5;
   }
 
+  .burgerMenu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .line {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 5px;
+  }
+
   @media only screen and (max-width:600px) {
       .Navigation{
         display: flex;
@@ -454,11 +467,56 @@ footer .fa {
         margin-top: 0px;
       }
 
+      .inline-block{
+          margin-left: 172px;
+      }
 
         .inline-block-logo img{
-            height: 112px;
-            width: 270px;
+            height: 110px;
+            width: 288px;
         }
+
+        ul.normalMenu{
+            display: none;
+            float: center;
+            margin-left: -62px;
+            padding-left: 0px;
+          }
+
+          ul.normalMenu li {
+            font-size: 20px;
+          }
+        
+          .burgerMenu {
+            display: flex;
+            margin-top: 23px;
+          }
+
+          #Home {
+            margin-right: 55px;
+            -webkit-text-stroke-width: 3px;
+          }
+          li.Work {
+            margin-right: 37px;
+          }
+          li.About {
+            margin-right: 55px;
+          }
+
+          .Work img {
+            height: 25px;
+            width: 20px;
+            margin-bottom: -7px;
+          }
+
+          .dropdown {
+              margin-left:-1px;
+
+          }
+
+          .Work .dropdown li {
+              font-size: 12px;
+          }
     
     
     .WorkGrid{
