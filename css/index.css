@@ -453,6 +453,12 @@ footer .fa {
         margin: -2px;
         margin-top: 0px;
       }
+
+
+        .inline-block-logo img{
+            height: 112px;
+            width: 270px;
+        }
     
     
     .WorkGrid{
@@ -470,8 +476,17 @@ footer .fa {
             grid-column-gap: 70px;
       }
 
+      .content1 img {
+        margin-left: 147px;
+      }
+
+      .content2 img  {
+        margin-left: 147px;
+      }
+
       .MySkillsFlex{
           flex-direction: column;
+          margin-left: 124px;
       }
 
       .hero {
@@ -483,6 +498,35 @@ footer .fa {
 
       }
 
+      #Scroll {
+        text-align: center;
+        margin-left: 56px;
+      }
+
+      .scrollimg{
+        height: 60px;
+        width: 60px;
+        margin-left: 126px;
+        margin-top: -4px;
+        cursor: pointer;
+      }
+
+      .UserResearch{
+        padding: 53px;
+      }
+
+      .UIP{
+        padding: 53px;
+
+      }
+
+      .WebDev{
+        padding: 53px;
+
+      }
+
+
+
 
       .UserResearch img {
         height: 100px;
@@ -491,10 +535,15 @@ footer .fa {
     
     .UIP img{
         height: 100px;
+        margin-left: -14px;
     }
     
     .WebDev img {
         height: 100px;
+    }
+
+    .WebDev h3{
+        margin-left: -12px;
     }
     
       
@@ -503,6 +552,10 @@ footer .fa {
       background-repeat: no-repeat;
       text-align: center;
       width: auto;
+}
+    .Footer {
+        padding: 10px;
+
 }
 
   }

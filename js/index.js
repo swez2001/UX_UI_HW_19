@@ -9,6 +9,8 @@ $(document).ready(function() {
     //   }
     // );
 
+
+    // Work Tab Dropdown when clicked & hides when not clicked
     $('.Work').click(function(event) {
       event.preventDefault();
       if ($(this).find('.dropdown').is(":visible")){
@@ -19,32 +21,14 @@ $(document).ready(function() {
       }
     });
     
+
+    // Scroll function - When Down Arrow Icon is clicked page scrolls to the Work Section
     $('.scroll-down').click(function(event) {
       event.preventDefault();
-      //console.log("click the button");
       const myWork = document.getElementById('MyWorkSection');
-      //console.log(myWork);
       myWork.scrollIntoView({ behavior: "smooth" });
-      // var target = $('.section.active').scrollimg('.MyWork');
-      // if (target.length == 0){
-      //   target = $('.MyWork:first');
-      // }
-      // $('html, body').animate({scrollTop: target.offset().top}, 'slow');
-      // $('.active').removeClass('active');
-      // target.addClass('active');
    
     });
-
-    // $('.scrollimg').click(function() {
-    //   var target = $('.section.active').scrollimg('.section');
-    //   if (target.length == 0){
-    //     target = $('.section:first');
-    //   }
-    //   $('html, body').animate({scrollTop: target.offset().top}, 'slow');
-    //   $('.active').removeClass('active');
-    //   target.addClass('active');
-   
-    // });
   });
 
   
