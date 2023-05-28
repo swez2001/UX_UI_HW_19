@@ -285,6 +285,11 @@ h3 {
     grid-area: travelcontent;
 }
 
+.backing-block1:hover {
+    color: #9747FF;
+    cursor: pointer;
+}
+
 .backing-block1 h2{
     margin-right: 218px;
     text-align: left;
@@ -332,6 +337,11 @@ h3 {
     margin-left: 20px;
 }
 
+.backing-block2:hover {
+    color: #9747FF;
+    cursor: pointer;
+}
+
 .content3{
     grid-area: sisterimg;
     background-color: #D79FA0;
@@ -361,6 +371,10 @@ h3 {
     text-align: left;
     margin-left: 20px;
 }
+.backing-block3:hover {
+    color: #9747FF;
+    cursor: pointer;
+}
 
 .content4 {
     grid-area: atoimg;
@@ -389,6 +403,11 @@ h3 {
     font-weight: 400;
     text-align: left;
     margin-left: 20px;
+}
+
+.backing-block4:hover {
+    color: #9747FF;
+    cursor: pointer;
 }
 
 
