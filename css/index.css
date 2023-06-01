@@ -283,6 +283,8 @@ h3 {
 .backing-block1{
     background-color: #31A6BF;
     grid-area: travelcontent;
+    text-decoration: none;
+    color: black;
 }
 
 .backing-block1:hover {
