@@ -1,14 +1,5 @@
 
 $(document).ready(function() {
-    // $('.Work').hover(
-    //   function() {
-    //     $(this).find('.dropdown').show();
-    //   },
-    //   function() {
-    //     $(this).find('.dropdown').hide();
-    //   }
-    // );
-
 
     // Work Tab Dropdown when clicked & hides when not clicked
     $('.Work').click(function(event) {
